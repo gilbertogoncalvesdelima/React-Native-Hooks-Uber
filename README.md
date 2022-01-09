@@ -47,7 +47,14 @@ Para abrir seu projeto no android studio caso ja tenha instalado
 ```js
 react-native run-ios  
 ```
- 
+ Para emular o aplicativo no expo 
+
+Comando:
+
+```js
+expo start
+```
+
 ### Criando um projeto
 
 Instalar o node, da versão 8 para cima.
@@ -145,4 +152,23 @@ import 'react-native-gesture-handler';
  ``` 
 
 Parabéns agora está pronto nosso react-navigation
+
+## Configurando Redux
+
+Agora vamos configura nosso redux, para transferir dados de uma tela para outra, guardar informações do usuário
+e tambpem vamos utilizar o redux persist para persistir os dados utilizando o asinc storage, uma vez que a pessoa logar no aplicativo, ele pode fechar o aplicativo, quando ele voltar e abrir o aplicativo novamente ele vai ter as mesma informações dentro dos reducer em nosso redux, vamos saber quem está logado etc...
+
+Comando para instalar:
+
+```js
+yarn add redux react-redux redux-persist --save
+```
+## Instalando nosso asinc storage
+
+```js
+yarn add @react-native-community/async-storage --save
+```
+
+
+
 
