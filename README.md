@@ -177,3 +177,8 @@ Comando:
 yarn add react-navigation-stack react-navigation-drawer --save
 ```
 
+## Para estilizar o projeto utilizei o Styled - Components
+
+```js
+yarn add styled-components --save
+```
