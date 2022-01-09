@@ -169,6 +169,11 @@ yarn add redux react-redux redux-persist --save
 yarn add @react-native-community/async-storage --save
 ```
 
+## Configurando nosso naviguitor Preload e MainStack
 
+Comando:
 
+```js
+yarn add react-navigation-stack react-navigation-drawer --save
+```
 
