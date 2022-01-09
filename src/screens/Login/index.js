@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { StatusBar, Platform } from 'react-native'
+import useDevsUberApi from '../../useDevsUberApi'
 
 import { 
   Container, 
@@ -14,6 +15,8 @@ import {
 } from './styled'
 
 const Page = () => {
+  const api = useDevsUberApi()
+  //const res = await api.signin(email, password)
 
   const [activeMenu, setActiveMenu] = useState('signin')
 
